@@ -1,6 +1,6 @@
 module CodeMapper
   class Tracer
-    def initialize(filters: [], output:nil)
+    def initialize(filters: [], output: nil)
       @filters = filters
       @output = output
     end
